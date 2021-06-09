@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Valence</title>
-
+  <link rel="shortcut icon" class = "circle" href="logo.jpeg">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <div class = "navbar-fixed">
+  <nav class="blue-grey darken-4" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" > <img src = "logo.jpeg" class = "logo-image" > </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="about.html">About</a></li>
-        <li><a href="sessions.html">Sessions</a></li>
+        <li><a href="about.html"> <span class="white-text"> About</a></li>
+        <li><a href="sessions.html"> <span class="white-text"> Sessions</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -25,7 +28,7 @@
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
+  </div>
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -35,7 +38,7 @@
           <h5 class="header col s12 light">Glad to have you here, lets discuss some science!</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1"  >Get Started</a>
         </div>
         <br><br>
 
@@ -43,10 +46,33 @@
     </div>
     <div class="parallax"><img src="dopamine.jpg" alt="Unsplashed background img 1"></div>
   </div>
-
+  <div class="divider"></div>
+  <div class="black">
   <div class="video-container">
-    <iframe width="500" height="281" src="https://www.youtube.com/embed/Pp1xuf0Ha-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+    <iframe width="500" height="281" class = "hoverable" src="https://www.youtube.com/embed/Pp1xuf0Ha-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div></div>
+
+<div class="carousel">
+    <a class="carousel-item" href="#"><img src="logo.jpeg"></a>
+    <a class="carousel-item" href="#"><img src="dopamine.jpg"></a>
+    <a class="carousel-item" href="#"><img src="logo.jpeg"></a>
+    <a class="carousel-item" href="#"><img src="dopamine.jpeg"></a>
+    <a class="carousel-item" href="#"><img src="logo.jpeg"></a>
+</div>
+<ul class="collapsible">
+  <li>
+    <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+  </li>
+  <li class = "active">
+    <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+  </li>
+  <li>
+    <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+  </li>
+</ul>
 
   <div class="container">
     <div class="section">

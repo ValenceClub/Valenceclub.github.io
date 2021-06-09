@@ -9075,8 +9075,8 @@ input[type=range]::-ms-thumb {
   }
 }
 .logo-image{
-  width: 46px;
-  height: 46px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   overflow: hidden;
   margin-top: -6px;
