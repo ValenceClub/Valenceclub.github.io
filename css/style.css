@@ -64,7 +64,7 @@ footer.page-footer {
 }
 
 .carousel {
-  height: 600px;
+  height: 800px;
 }
 /* .carousel .carousel-slider .carousel-item {
   min-height: 600px;
@@ -72,8 +72,8 @@ footer.page-footer {
 } */
 
 .carousel .carousel-item {
-  width: 520px;
-  height: 520px;
+  width: 500px;
+  height: 700px;
 }
 .carousel .carousel-item > img {
   position: relative;
