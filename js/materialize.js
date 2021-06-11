@@ -10439,7 +10439,7 @@ $jscomp.polyfill = function (e, r, p, m) {
     duration: 200, // ms
     dist: -100, // zoom scale TODO: make this more intuitive as an option
     shift: 0, // spacing for center image
-    padding: -10, // Padding between non center items
+    padding: 0, // Padding between non center items
     numVisible: 5, // Number of visible items in carousel
     fullWidth: false, // Change to full width styles
     indicators: true, // Toggle indicators

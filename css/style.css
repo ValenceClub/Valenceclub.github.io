@@ -62,16 +62,21 @@ footer.page-footer {
   overflow: hidden;
   margin-top: 7.5px;
 }
+
 .carousel {
   height: 600px;
 }
-
-.carousel.carousel-slider .carousel-item {
+/* .carousel .carousel-slider .carousel-item {
   min-height: 600px;
   position: relative;
-}
+} */
 
 .carousel .carousel-item {
-  width: 600px;
-  height: 600px;
+  width: 520px;
+  height: 520px;
+}
+.carousel .carousel-item > img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
