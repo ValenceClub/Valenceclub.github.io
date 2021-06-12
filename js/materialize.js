@@ -8141,9 +8141,9 @@ $jscomp.polyfill = function (e, r, p, m) {
   'use strict';
 
   var _defaults = {
-    top: 0,
+    top: 1030,
     bottom: Infinity,
-    offset: 0,
+    offset: 200,
     onPositionChange: null
   };
 
